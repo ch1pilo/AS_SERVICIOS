@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS.Desarrolladores | Tu Socio Tecnológico para Startups</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="preloader">
+        <img src="img/logo.jpg" alt="Innovatech Logo" class="preloader-logo">
+    </div>
+    <!-- Efectos de iluminación -->
+    <div class="light-effect light-1"></div>
+    <div class="light-effect light-2"></div>
+    <div class="light-effect light-3"></div>
+    
+    <!-- Menú de Navegación -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo"><img src="img/logo.jpg" alt="Innovatech Logo"> AS.<span> Desarrolladores</span></a>
+            <ul class="nav-links">
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#about">Quiénes Somos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="typing-text">Impulsando tu Startup con Tecnología</h1>
+                <h2>AS.Desarrolladores - <span>Desarrollo de Aplicaciones Web</span></h2>
+                <div class="cta-buttons">
+                    <a href="#services" class="btn primary">Descubre Nuestros Servicios</a>
+                    <a href="#contact" class="btn secondary">Hablemos de tu Idea</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="glowing-border">
+                    <img src="img/logo.jpg" alt="Equipo de Innovatech" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Nuestros <span>Proyectos</span></h2>
+            
+            <div class="projects-carousel">
+                <div class="carousel-container">
+                    <!-- Proyecto 1 -->
+                    <div class="carousel-item">
+                        <div class="project-card">
+                            <img src="img/credito.jpg" alt="Proyecto App de Gestión">
+                            <div class="project-info">
+                                <h3>App de Gestión de Créditos</h3>
+                                <p>Desarrollo de una aplicación web intuitiva para la gestión de clientes y ventas, optimizando procesos para una startup de víveres.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 2 -->
+                    <div class="carousel-item">
+                        <div class="project-card">
+                            <img src="img/7.png" alt="Proyecto Plataforma Educativa">
+                            <div class="project-info">
+                                <h3>Sitio web Institucional</h3>
+                                <p>Diseño y desarrollo de un sitio web para la Unidad Educativa "La Cuadra de Bolívar".</p>
+                                <a href="https://ch1pilo.github.io/U.E/" class="btn small">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 3 -->
+                    <div class="carousel-item">
+                        <div class="project-card">
+                            <img src="img/6.png" alt="Proyecto E-commerce Personalizado">
+                            <div class="project-info">
+                                <h3>Landing Page para Tienda de Calzado</h3>
+                                <p>Diseño y desarrollo de una landing page optimizada para una tienda de calzado.</p>
+                                <a href="https://ch1pilo.github.io/EMPISHOES/" target="_blank" class="btn small">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 4 -->
+                    <div class="carousel-item">
+                        <div class="project-card">
+                            <img src="img/2.png" alt="Proyecto API para Chatbot">
+                            <div class="project-info">
+                                <h3>API para Chatbot de Soporte</h3>
+                                <p>Implementación de una API RESTful robusta para integrar un chatbot de atención al cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 5 -->
+                    <div class="carousel-item">
+                        <div class="project-card">
+                            <img src="img/8.png" alt="Catálogo deportivo">
+                            <div class="project-info">
+                                <h3>Catálogo para tienda deportiva</h3>
+                                <p>Diseño y desarrollo de un catálogo de productos online para una tienda de artículos deportivos.</p>
+                                <a href="https://empishoes.pythonanywhere.com/EmpiShoes/ropa/catalogo_zapatos/" class="btn small">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Controles de navegación -->
+                <div class="carousel-nav">
+                    <button class="carousel-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <!-- Indicadores (puntos) -->
+                <div class="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Quiénes <span>Somos</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En AS.Desarrolladores, somos un equipo apasionado de ingenieros y desarrolladores con una misión clara: ser el motor tecnológico que impulse el crecimiento de tu startup. Entendemos los desafíos y la agilidad que requiere el mundo emprendedor, y estamos aquí para ofrecerte soluciones a medida que te permitan escalar sin límites.</p>
+                    <p>Nuestra visión es democratizar el acceso a tecnología de punta para pequeñas y medianas empresas, transformando ideas innovadoras en productos digitales tangibles y exitosos.</p>
+                    <h3>Nuestros Valores</h3>
+                    <ul>
+                        <li><strong>Innovación:</strong> Siempre a la vanguardia, buscando las mejores soluciones.</li>
+                        <li><strong>Colaboración:</strong> Trabajamos codo a codo contigo, como un verdadero socio.</li>
+                        <li><strong>Transparencia:</strong> Comunicación clara y honesta en cada etapa del proyecto.</li>
+                        <li><strong>Impacto:</strong> Nos enfocamos en resultados que generen un valor real para tu negocio.</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Nuestro Enfoque</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ideas</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Desarrollo</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Escalabilidad</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Partnership</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Crecimiento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="services" class="projects"> <!-- Reutilizamos la clase projects para el grid de tarjetas -->
+        <div class="container">
+            <h2 class="section-title">Nuestros <span>Servicios</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <i class="fas fa-window-restore service-icon"></i>
+                        <h3>Creación de Landing Pages</h3>
+                        <p>Diseñamos landing pages atractivas y efectivas, optimizadas para conversiones y con un enfoque en lograr tus objetivos de marketing y captación de clientes.</p>
+                        <a href="#contact" class="btn small">Solicitar Presupuesto</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <i class="fas fa-laptop-code service-icon"></i>
+                        <h3>Creación de Aplicaciones Web</h3>
+                        <p>Desarrollamos aplicaciones web personalizadas, funcionales y escalables que se adaptan perfectamente a las necesidades específicas de tu negocio.</p>
+                        <a href="#contact" class="btn small">Más Información</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <i class="fas fa-info-circle service-icon"></i>
+                        <h3>Sitios Informativos</h3>
+                        <p>Creamos sitios web informativos claros, bien estructurados y atractivos que comunican efectivamente tu información al público objetivo.</p>
+                        <a href="#contact" class="btn small">Explorar Soluciones</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <i class="fas fa-building service-icon"></i>
+                        <h3>Sitios Corporativos</h3>
+                        <p>Desarrollamos sitios web corporativos profesionales que reflejan la identidad de tu empresa y fortalecen tu presencia digital en el mercado.</p>
+                        <a href="#contact" class="btn small">Proteger mi Negocio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact-form" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">¿Tienes una <span>idea</span>?<br>Hagámosla <span>realidad</span>.</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn primary">Enviar Mensaje</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Conectemos</h3>
+                    <p>Estamos siempre listos para escuchar tu visión y convertirla en una solución tecnológica impactante. ¡No dudes en contactarnos!</p>
+                    <div class="social-links">
+                        
+                        <a href="https://www.instagram.com/as.desarrolladores" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/+4246018457" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@as.developer_/video/7545953268644629766?is_from_webapp=1&sender_device=pc&web_id=7545998364128937477" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> AS.Desarrolladores. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="animacion.js"></script>
+</body>
+</html>
